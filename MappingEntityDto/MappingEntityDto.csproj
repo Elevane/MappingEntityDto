@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MappingEntityDto.Adaptaters\MappingEntityDto.Adaptaters.csproj" />
+    <ProjectReference Include="..\MappingEntityDto.Adapters\MappingEntityDto.Adapters.csproj" />
   </ItemGroup>
 
 </Project>

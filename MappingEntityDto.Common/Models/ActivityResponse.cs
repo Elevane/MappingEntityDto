@@ -11,6 +11,10 @@ namespace MappingEntityDto.Common.Models
         public string Name { get; set; }
         public string Code { get; set; }
         public ActivityTypeResponse ActivityType { get; set; }
-       
+
+        public string ToString()
+        {
+            return $"Name : {Name}-Code: {Code}-Type : [{ActivityType.ToString()}]";
+        }
     }
 }

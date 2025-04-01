@@ -1,14 +1,13 @@
-﻿
-
-using MappingEntityDto.Adaptaters.Adaptaters;
+﻿using MappingEntityDto.Adapters;
 using MappingEntityDto.Domain.Entities;
 
-var activity = new Activity() { 
-Id = 1,
-Name = "Test",
-Code = "Test",
-CreatedAt = DateTime.Now,
-UpdatedAt = DateTime.Now,
+var activity = new Activity()
+{
+    Id = 1,
+    Name = "Test",
+    Code = "Test",
+    CreatedAt = DateTime.Now,
+    UpdatedAt = DateTime.Now,
 };
 
 var type = new ActivityType()
@@ -18,7 +17,7 @@ var type = new ActivityType()
     Code = "Test",
     CreatedAt = DateTime.Now,
     UpdatedAt = DateTime.Now,
-    Activities = [activity]
+    Activities = [activity],
 };
 
 activity.ActivityType = type;
